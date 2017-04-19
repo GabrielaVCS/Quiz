@@ -1,0 +1,569 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="application.example.com.quizradio.MainActivity"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:text="Quiz sobre Java"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="13dp"
+        android:layout_marginBottom="20dp"
+        android:textSize="40dp"
+        android:layout_gravity="center"
+        android:id="@+id/titulo_quiz" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:text="@string/perg1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="13dp"
+                android:id="@+id/perg1" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:id="@+id/activity_main2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:text="@string/resp11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:textSize="13dp"
+                    android:id="@+id/resp11" />
+
+                <RadioButton
+                    android:text="@string/resp12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:textSize="13dp"
+                    android:id="@+id/resp12" />
+
+                <RadioButton
+                    android:text="@string/resp13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:textSize="13dp"
+                    android:id="@+id/resp13" />
+
+                <RadioButton
+                    android:text="@string/resp14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:textSize="13dp"
+                    android:id="@+id/resp14"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:text="@string/perg2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="13dp"
+                android:id="@+id/perg2" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:id="@+id/activity_main3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:text="@string/resp21"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="8dp"
+                    android:textSize="13dp"
+                    android:id="@+id/resp21" />
+
+                <RadioButton
+                    android:text="@string/resp22"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="8dp"
+                    android:textSize="13dp"
+                    android:id="@+id/resp22" />
+
+                <RadioButton
+                    android:text="@string/resp23"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="8dp"
+                    android:textSize="13dp"
+                    android:id="@+id/resp23" />
+
+                <RadioButton
+                    android:text="@string/resp24"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="8dp"
+                    android:textSize="13dp"
+                    android:id="@+id/resp24" />
+
+            </LinearLayout>
+
+            <TextView
+                android:text="@string/perg3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="13dp"
+                android:id="@+id/perg3" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:id="@+id/activity_main4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:text="@string/resp31"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="8dp"
+                    android:textSize="13dp"
+                    android:id="@+id/resp31" />
+
+                <RadioButton
+                    android:text="@string/resp32"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="8dp"
+                    android:textSize="13dp"
+                    android:id="@+id/resp32" />
+
+            </LinearLayout>
+
+            <TextView
+                android:text="@string/perg4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="13dp"
+                android:id="@+id/perg4" />
+
+            <TextView
+                android:text="@string/perg41"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="13dp"
+                android:id="@+id/perg41" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:id="@+id/activity_main5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:text="@string/resp41"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="8dp"
+                    android:textSize="13dp"
+                    android:id="@+id/resp41" />
+
+                <RadioButton
+                    android:text="@string/resp42"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="8dp"
+                    android:textSize="13dp"
+                    android:id="@+id/resp42" />
+
+                <RadioButton
+                    android:text="@string/resp43"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="8dp"
+                    android:textSize="13dp"
+                    android:id="@+id/resp43" />
+
+                <RadioButton
+                    android:text="@string/resp44"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="8dp"
+                    android:textSize="13dp"
+                    android:id="@+id/resp44" />
+
+            </LinearLayout>
+
+            <TextView
+                android:text="@string/perg5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="13dp"
+                android:id="@+id/perg5" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:id="@+id/activity_main6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:text="@string/resp51"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="8dp"
+                    android:textSize="13dp"
+                    android:id="@+id/resp51" />
+
+                <RadioButton
+                    android:text="@string/resp52"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="8dp"
+                    android:textSize="13dp"
+                    android:id="@+id/resp52" />
+
+                <RadioButton
+                    android:text="@string/resp53"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="8dp"
+                    android:textSize="13dp"
+                    android:id="@+id/resp53" />
+
+                <RadioButton
+                    android:text="@string/resp54"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="8dp"
+                    android:textSize="13dp"
+                    android:id="@+id/resp54" />
+
+            </LinearLayout>
+
+            <Button
+                android:text="Enviar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/button"
+                android:onClick="Verifica"/>
+
+        <TextView
+            android:text="@string/perg1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="13dp"
+            android:id="@+id/perg_resp1" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:id="@+id/activity_main7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="@string/resp11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="13dp"
+                android:layout_marginRight="10dp"
+                android:id="@+id/resp_resp11" />
+
+            <TextView
+                android:text="@string/resp12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="13dp"
+                android:layout_marginRight="10dp"
+                android:id="@+id/resp_resp12" />
+
+            <TextView
+                android:text="@string/resp13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="13dp"
+                android:layout_marginRight="10dp"
+                android:id="@+id/resp_resp13" />
+
+            <TextView
+                android:text="@string/resp14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="13dp"
+                android:layout_marginRight="10dp"
+                android:id="@+id/resp_resp14" />
+
+        </LinearLayout>
+
+
+            <TextView
+                android:text="@string/perg2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="13dp"
+                android:id="@+id/perg_resp2" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:id="@+id/activity_main8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:text="@string/resp21"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textView"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginTop="13dp"
+                    android:id="@+id/resp_resp21" />
+
+                <TextView
+                    android:text="@string/resp22"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textView"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginTop="13dp"
+                    android:id="@+id/resp_resp22" />
+
+                <TextView
+                    android:text="@string/resp23"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textView"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginTop="13dp"
+                    android:id="@+id/resp_resp23" />
+
+                <TextView
+                    android:text="@string/resp24"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textView"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginTop="13dp"
+                    android:id="@+id/resp_resp24" />
+
+            </LinearLayout>
+
+
+            <TextView
+                android:text="@string/perg3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="13dp"
+                android:id="@+id/perg_resp3" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:id="@+id/activity_main9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:text="@string/resp31"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textView"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginTop="13dp"
+                    android:layout_marginRight="10dp"
+                    android:id="@+id/resp_resp31" />
+
+                <TextView
+                    android:text="@string/resp32"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textView"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginTop="13dp"
+                    android:layout_marginRight="10dp"
+                    android:id="@+id/resp_resp32" />
+
+            </LinearLayout>
+
+
+            <TextView
+                android:text="@string/perg4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="13dp"
+                android:id="@+id/perg_resp4" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:id="@+id/activity_main10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:text="@string/resp41"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textView"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginTop="13dp"
+                    android:id="@+id/resp_resp41" />
+
+                <TextView
+                    android:text="@string/resp42"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textView"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginTop="13dp"
+                    android:id="@+id/resp_resp42" />
+
+                <TextView
+                    android:text="@string/resp43"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textView"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginTop="13dp"
+                    android:id="@+id/resp_resp43" />
+
+                <TextView
+                    android:text="@string/resp44"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textView"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginTop="13dp"
+                    android:id="@+id/resp_resp44" />
+
+            </LinearLayout>
+
+
+            <TextView
+                android:text="@string/perg5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="13dp"
+                android:id="@+id/perg_resp5" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:id="@+id/activity_main11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:text="@string/resp51"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textView"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginTop="13dp"
+                    android:id="@+id/resp_resp51" />
+
+                <TextView
+                    android:text="@string/resp52"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textView"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginTop="13dp"
+                    android:id="@+id/resp_resp52" />
+
+                <TextView
+                    android:text="@string/resp53"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textView"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginTop="13dp"
+                    android:id="@+id/resp_resp53" />
+
+                <TextView
+                    android:text="@string/resp54"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textView"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginTop="13dp"
+                    android:id="@+id/resp_resp54" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
